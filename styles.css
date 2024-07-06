@@ -15,6 +15,22 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.header-text {
+    flex: 1;
+}
+
 header {
     text-align: center;
     margin-bottom: 20px;
@@ -72,4 +88,7 @@ footer {
     width: 78.8%;
     bottom: 0;
 }
-
+/* .img {
+    width: 100%;
+    padding: 10px;
+} */
